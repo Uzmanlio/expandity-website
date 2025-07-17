@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button.jsx'
-import { Menu, X, Eye, Target, Upload, Send } from 'lucide-react'
+import { Menu, X, Eye, Target, Upload, Send, Mail, MessageCircle } from 'lucide-react'
 import heroImage from './assets/hero-image.jpg'
 import expandityLogo from './assets/expandity-logo.png'
 import service1 from './assets/service-1-software.png'
@@ -804,10 +804,61 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black text-white py-8">
+      <footer className="bg-black text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <p className="text-gray-400">COPYRIGHT © ZOROX 2025. ALL RIGHTS RESERVED</p>
+          <div className="flex flex-col items-center space-y-6">
+            {/* Expandity Logo */}
+            <div className="flex items-center">
+              <img 
+                src={expandityLogo} 
+                alt="Expandity" 
+                className="h-12 w-auto"
+              />
+            </div>
+            
+            {/* Company Information */}
+            <div className="text-center space-y-2">
+              <h3 className="text-lg font-semibold text-white">
+                Uzmanlio Bilgi Teknolojileri Pazarlama ve Ticaret. A.Ş.
+              </h3>
+              <p className="text-gray-400">
+                Maslak Mah. Beybi Giz Plaza No:1 Sarıyer / İstanbul
+              </p>
+            </div>
+            
+            {/* Contact Information */}
+            <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8">
+              {/* Email */}
+              <div className="flex items-center space-x-2">
+                <Mail className="w-5 h-5 text-[#6366f1]" />
+                <a 
+                  href="mailto:info@uzmanlio.com" 
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  info@uzmanlio.com
+                </a>
+              </div>
+              
+              {/* WhatsApp */}
+              <div className="flex items-center space-x-2">
+                <MessageCircle className="w-5 h-5 text-green-500" />
+                <a 
+                  href="https://wa.me/908503091122" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  +90 850 309 11 22
+                </a>
+              </div>
+            </div>
+            
+            {/* Copyright */}
+            <div className="pt-6 border-t border-gray-800 w-full text-center">
+              <p className="text-gray-400">
+                COPYRIGHT © EXPANDITY 2025. ALL RIGHTS RESERVED
+              </p>
+            </div>
           </div>
         </div>
       </footer>
