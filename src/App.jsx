@@ -237,7 +237,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % portfolioItems.length)
-    }, 6000) // Change slide every 6 seconds (slower)
+    }, 3000) // Change slide every 3 seconds
 
     return () => clearInterval(interval)
   }, [portfolioItems.length])
@@ -579,7 +579,7 @@ function App() {
                     key={`${index}-${currentSlide}`}
                     className={`transition-all duration-1000 ease-in-out rounded-lg overflow-hidden group cursor-pointer hover:shadow-2xl ${
                       isCenter 
-                        ? 'w-[405px] h-[800px] transform scale-105 z-10' 
+                        ? 'w-[400px] h-[800px] transform scale-105 z-10' 
                         : 'w-[405px] h-[400px] opacity-75'
                     }`}
                   >
@@ -606,12 +606,6 @@ function App() {
               ))}
             </div>
 
-            {/* Auto-slide indicator */}
-            <div className="text-center mt-4">
-              <p className="text-gray-400 text-sm">
-                Auto-sliding every 6 seconds • Click indicators to navigate
-              </p>
-            </div>
           </div>
         </div>
       </section>
