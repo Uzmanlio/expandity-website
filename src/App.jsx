@@ -9,21 +9,21 @@ import service3 from './assets/service-3-consulting.png'
 import service4 from './assets/service-4-integration.png'
 import service5 from './assets/service-5-branding.png'
 import service6 from './assets/service-6-management.png'
-import techAspNet from './assets/tech-aspnet.png'
-import techReact from './assets/tech-react.png'
-import techMongoDB from './assets/tech-mongodb.png'
-import techNextJS from './assets/tech-nextjs.png'
-import techVue from './assets/tech-vue.png'
-import techLaravel from './assets/tech-laravel.png'
-import techGCloud from './assets/tech-gcloud.png'
-import techAWS from './assets/tech-aws.png'
-import techPython from './assets/tech-python.png'
-import techWordPress from './assets/tech-wordpress.png'
-import techNodeJS from './assets/tech-nodejs.png'
-import techAngular from './assets/tech-angular.png'
-import techJava from './assets/tech-java.png'
-import techFlutter from './assets/tech-flutter.png'
-import techKotlin from './assets/tech-kotlin.png'
+import AspNetLogo from './assets/aspnet.png'
+import ReactLogo from './assets/react.png'
+import MongoDBLogo from './assets/mongodb.png'
+import NextJSLogo from './assets/nextjs.png'
+import VueLogo from './assets/vue.png'
+import LaravelLogo from './assets/laravel-logo.png'
+import GCloudLogo from './assets/google-cloud-logo.png'
+import AWSLogo from './assets/aws-logo.png'
+import Python from './assets/python-logo.png'
+import WordPressLogo from './assets/wordpress.png'
+import NodeJSLogo from './assets/nodejs-logo.png'
+import AngularLogo from './assets/angular-logo.png'
+import JavaLogo from './assets/java-logo.png'
+import FlutterLogo from './assets/flutter-logo.png'
+import KotlinLogo from './assets/kotlin-logo.png'
 import Portfolio1 from './assets/Portfolio1.png'
 import Portfolio2 from './assets/Portfolio2.png'
 import Portfolio3 from './assets/Portfolio3.png'
@@ -35,6 +35,19 @@ import Portfolio8 from './assets/Portfolio8.png'
 import Portfolio9 from './assets/Portfolio9.png'
 import Portfolio10 from './assets/Portfolio10.png'
 import Portfolio11 from './assets/Portfolio11.png'
+import BiodermaLogo from './assets/sliding-logos/bioderma-logo-png_seeklogo-19622.png';
+import GucLogo from './assets/sliding-logos/cropped-logo_guc-1.webp';
+import Contentia from './assets/sliding-logos/AppStore_Icon.png';
+import NuxeLogo from './assets/sliding-logos/nuxe-urunleri-445840_1200x1200.webp';
+import VelavitLogo from './assets/sliding-logos/Velavit_logooo.svg';
+import TopluyoruzLogo from './assets/sliding-logos/Topluyoruz Logo.png';
+import NaosLogo from './assets/sliding-logos/naos_iadeal.jpg';
+import MsiLogo from './assets/sliding-logos/png-transparent-msi-logo-horizontal.png';
+import Uzmanlio from './assets/sliding-logos/10.png';
+import HouseOfSuperstep from './assets/sliding-logos/8e93a2a2-44d0-4483-84b0-95bcc9676d26.png';
+import Midsole from './assets/sliding-logos/Yeni-Proje-1.png';
+import Manacoaching from './assets/sliding-logos/logo.png';
+import ESTR from './assets/sliding-logos/images.png';
 import './App.css'
 
 function App() {
@@ -136,51 +149,51 @@ function App() {
     {
       title: "Software & Product Development",
       description: "We build scalable websites, mobile apps, and custom software tailored to your business needs. From frontend to backend, our full-stack team delivers reliable and future-ready digital products.",
-      image: "/src/assets/service-1-software.png"
+      image: service1
     },
     {
       title: "Digital Marketing & Growth",
       description: "We craft data-driven digital marketing strategies to help you attract, convert, and retain customers. Our services include SEO, paid ads, content, and influencer campaigns.",
-      image: "/src/assets/service-2-marketing.png"
+      image: service2
     },
     {
       title: "Business & Startup Consulting",
       description: "We support startups and growing businesses with strategic planning, budgeting, team setup, and market positioning. Let's turn your ideas into fundable, scalable ventures.",
-      image: "/src/assets/service-3-consulting.png"
+      image: service3
     },
     {
       title: "API & System Integration",
       description: "Connect your tools and systems with seamless API integrations and automation. We bridge your platforms for better efficiency and data flow.",
-      image: "/src/assets/service-4-integration.png"
+      image: service4
     },
     {
       title: "Branding & Creative Strategy",
       description: "We craft unique brand identities, from logos to tone of voice, that reflect your business values and speak to your audience. Build a brand that's memorable and aligned.",
-      image: "/src/assets/service-5-branding.png"
+      image: service5
     },
     {
       title: "Project & Product Management",
       description: "We help you plan, prioritize, and launch with agile project management support. Get your digital product delivered on time, with clarity and confidence.",
-      image: "/src/assets/service-6-management.png"
+      image: service6
     }
   ];
 
   const technologies = [
-    { name: "ASP.NET", logo: "/src/assets/aspnet-logo.png", category: "Backend" },
-    { name: "React", logo: "/src/assets/react-logo.png", category: "Frontend" },
-    { name: "MongoDB", logo: "/src/assets/mongodb-logo.png", category: "Database" },
-    { name: "Next.js", logo: "/src/assets/nextjs-logo.jpeg", category: "Frontend" },
-    { name: "Vue.js", logo: "/src/assets/vuejs-logo.png", category: "Frontend" },
-    { name: "Laravel", logo: "/src/assets/laravel-logo.png", category: "Backend" },
-    { name: "Google Cloud", logo: "/src/assets/google-cloud-logo.png", category: "Cloud" },
-    { name: "AWS", logo: "/src/assets/aws-logo.png", category: "Cloud" },
-    { name: "Python", logo: "/src/assets/python-logo.png", category: "Backend" },
-    { name: "WordPress", logo: "/src/assets/wordpress-logo.png", category: "CMS" },
-    { name: "Node.js", logo: "/src/assets/nodejs-logo.png", category: "Backend" },
-    { name: "Angular", logo: "/src/assets/angular-logo.png", category: "Frontend" },
-    { name: "Java", logo: "/src/assets/java-logo.png", category: "Backend" },
-    { name: "Flutter", logo: "/src/assets/flutter-logo.png", category: "Mobile" },
-    { name: "Kotlin", logo: "/src/assets/kotlin-logo.png", category: "Mobile" }
+    { name: "ASP.NET", logo: AspNetLogo, category: "Backend" },
+    { name: "React", logo: ReactLogo, category: "Frontend" },
+    { name: "MongoDB", logo: MongoDBLogo, category: "Database" },
+    { name: "Next.js", logo: NextJSLogo, category: "Frontend" },
+    { name: "Vue.js", logo: VueLogo , category: "Frontend" },
+    { name: "Laravel", logo: LaravelLogo, category: "Backend" },
+    { name: "Google Cloud", logo: GCloudLogo, category: "Cloud" },
+    { name: "AWS", logo: AWSLogo , category: "Cloud" },
+    { name: "Python", logo: Python, category: "Backend" },
+    { name: "WordPress", logo: WordPressLogo , category: "CMS" },
+    { name: "Node.js", logo: NodeJSLogo, category: "Backend" },
+    { name: "Angular", logo: AngularLogo, category: "Frontend" },
+    { name: "Java", logo: JavaLogo, category: "Backend" },
+    { name: "Flutter", logo: FlutterLogo, category: "Mobile" },
+    { name: "Kotlin", logo: KotlinLogo, category: "Mobile" }
   ];
 
   const portfolioItems = [
@@ -212,7 +225,7 @@ function App() {
     {
       title: "Restaurant Management System",
       description: "Complete restaurant operations and ordering system with inventory management.",
-      iimage: Portfolio6
+      image: Portfolio6
     },
     {
       title: "Social Media Analytics Tool",
@@ -255,19 +268,19 @@ function App() {
 
   // Reference logos
   const referenceLogos = [
-    { name: "Bioderma", logo: "/src/assets/Sliding Logos/bioderma-logo-png_seeklogo-19622.png" },
-    { name: "GUC", logo: "/src/assets/Sliding Logos/cropped-logo_guc-1.webp" },
-    { name: "AppStore", logo: "/src/assets/Sliding Logos/AppStore_Icon.png" },
-    { name: "Nuxe", logo: "/src/assets/Sliding Logos/nuxe-urunleri-445840_1200x1200.webp" },
-    { name: "Velavit", logo: "/src/assets/Sliding Logos/Velavit_logooo.svg" },
-    { name: "Topluyoruz", logo: "/src/assets/Sliding Logos/Topluyoruz Logo.png" },
-    { name: "Naos", logo: "/src/assets/Sliding Logos/naos_iadeal.jpg" },
-    { name: "MSI", logo: "/src/assets/Sliding Logos/png-transparent-msi-logo-horizontal.png" },
-    { name: "Company 10", logo: "/src/assets/Sliding Logos/10.png" },
-    { name: "Partner", logo: "/src/assets/Sliding Logos/8e93a2a2-44d0-4483-84b0-95bcc9676d26.png" },
-    { name: "Client", logo: "/src/assets/Sliding Logos/Yeni-Proje-1.png" },
-    { name: "Brand", logo: "/src/assets/Sliding Logos/logo.png" },
-    { name: "Company", logo: "/src/assets/Sliding Logos/images.png" }
+    { name: "Bioderma", logo: BiodermaLogo},
+    { name: "GUC", logo: GucLogo},
+    { name: "AppStore", logo: Contentia},
+    { name: "Nuxe", logo: NuxeLogo},
+    { name: "Velavit", logo: VelavitLogo},
+    { name: "Topluyoruz", logo: TopluyoruzLogo},
+    { name: "Naos", logo: NaosLogo},
+    { name: "MSI", logo: MsiLogo},
+    { name: "Uzmanlio", logo: Uzmanlio},
+    { name: "HouseOfSuperstep", logo: HouseOfSuperstep},
+    { name: "MidsoleMag", logo: Midsole },
+    { name: "ManaCoaching", logo: Manacoaching},
+    { name: "ESTR", logo: ESTR }
   ]
 
   const testimonials = [
