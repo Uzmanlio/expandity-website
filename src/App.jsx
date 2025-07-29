@@ -24,6 +24,17 @@ import techAngular from './assets/tech-angular.png'
 import techJava from './assets/tech-java.png'
 import techFlutter from './assets/tech-flutter.png'
 import techKotlin from './assets/tech-kotlin.png'
+import Portfolio1 from './assets/Porfolio1.png'
+import Portfolio2 from './assets/Porfolio2.png'
+import Portfolio3 from './assets/Porfolio3.png'
+import Portfolio4 from './assets/Porfolio4.png'
+import Portfolio5 from './assets/Porfolio5.png'
+import Portfolio6 from './assets/Porfolio6.png'
+import Portfolio7 from './assets/Porfolio7.png'
+import Portfolio8 from './assets/Porfolio8.png'
+import Portfolio9 from './assets/Porfolio9.png'
+import Portfolio10 from './assets/Porfolio10.png'
+import Portfolio11 from './assets/Porfolio11.png'
 import './App.css'
 
 function App() {
@@ -176,57 +187,57 @@ function App() {
     {
       title: "E-Commerce Platform Development",
       description: "Modern, scalable e-commerce solution with advanced features and payment integration.",
-      image: "https://picsum.photos/405/600?random=1"
+      image: Portfolio1
     },
     {
       title: "Mobile Banking Application", 
       description: "Secure and user-friendly mobile banking app with biometric authentication.",
-      image: "https://picsum.photos/405/600?random=2"
+      image: Portfolio2
     },
     {
       title: "Healthcare Management System",
       description: "Comprehensive healthcare platform for patient and doctor management.",
-      image: "https://picsum.photos/405/600?random=3"
+      image: Portfolio3
     },
     {
       title: "Real Estate Portal",
       description: "Advanced property listing and management platform with virtual tours.",
-      image: "https://picsum.photos/405/600?random=4"
+      image: Portfolio4
     },
     {
       title: "Educational Learning Platform",
       description: "Interactive online learning platform with video streaming and assessments.",
-      image: "https://picsum.photos/405/600?random=5"
+      image: Portfolio5
     },
     {
       title: "Restaurant Management System",
       description: "Complete restaurant operations and ordering system with inventory management.",
-      image: "https://picsum.photos/405/600?random=6"
+      iimage: Portfolio6
     },
     {
       title: "Social Media Analytics Tool",
       description: "Advanced analytics dashboard for social media insights and reporting.",
-      image: "https://picsum.photos/405/600?random=7"
+      image: Portfolio7
     },
     {
       title: "Logistics Tracking System",
       description: "Real-time package tracking and delivery management with GPS integration.",
-      image: "https://picsum.photos/405/600?random=8"
+      image: Portfolio8
     },
     {
       title: "CRM & Sales Platform",
       description: "Customer relationship management with sales automation and lead tracking.",
-      image: "https://picsum.photos/405/600?random=9"
+      image: Portfolio9
     },
     {
       title: "IoT Dashboard Application",
       description: "Smart device monitoring and control dashboard with real-time data visualization.",
-      image: "https://picsum.photos/405/600?random=10"
+      image: Portfolio10
     },
     {
       title: "Fintech Payment Gateway",
       description: "Secure payment processing system with multi-currency support and fraud detection.",
-      image: "https://picsum.photos/405/600?random=11"
+      image: Portfolio11
     }
   ]
 
