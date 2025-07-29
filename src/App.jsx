@@ -35,19 +35,19 @@ import Portfolio8 from './assets/Portfolio8.png'
 import Portfolio9 from './assets/Portfolio9.png'
 import Portfolio10 from './assets/Portfolio10.png'
 import Portfolio11 from './assets/Portfolio11.png'
-import BiodermaLogo from './assets/sliding-logos/bioderma-logo-png_seeklogo-19622.png';
-import GucLogo from './assets/sliding-logos/cropped-logo_guc-1.webp';
-import Contentia from './assets/sliding-logos/AppStore_Icon.png';
-import NuxeLogo from './assets/sliding-logos/nuxe-urunleri-445840_1200x1200.webp';
-import VelavitLogo from './assets/sliding-logos/Velavit_logooo.svg';
-import TopluyoruzLogo from './assets/sliding-logos/Topluyoruz Logo.png';
-import NaosLogo from './assets/sliding-logos/naos_iadeal.jpg';
-import MsiLogo from './assets/sliding-logos/png-transparent-msi-logo-horizontal.png';
-import Uzmanlio from './assets/sliding-logos/10.png';
-import HouseOfSuperstep from './assets/sliding-logos/8e93a2a2-44d0-4483-84b0-95bcc9676d26.png';
-import Midsole from './assets/sliding-logos/Yeni-Proje-1.png';
-import Manacoaching from './assets/sliding-logos/logo.png';
-import ESTR from './assets/sliding-logos/images.png';
+import BiodermaLogo from './assets/Sliding Logos/bioderma-logo-png_seeklogo-19622.png';
+import GucLogo from './assets/Sliding Logos/cropped-logo_guc-1.webp';
+import Contentia from './assets/Sliding Logos/AppStore_Icon.png';
+import NuxeLogo from './assets/Sliding Logos/nuxe-urunleri-445840_1200x1200.webp';
+import VelavitLogo from './assets/Sliding Logos/Velavit_logooo.svg';
+import TopluyoruzLogo from './assets/Sliding Logos/Topluyoruz Logo.png';
+import NaosLogo from './assets/Sliding Logos/naos_iadeal.jpg';
+import MsiLogo from './assets/Sliding Logos/png-transparent-msi-logo-horizontal.png';
+import Uzmanlio from './assets/Sliding Logos/10.png';
+import HouseOfSuperstep from './assets/Sliding Logos/8e93a2a2-44d0-4483-84b0-95bcc9676d26.png';
+import Midsole from './assets/Sliding Logos/Yeni-Proje-1.png';
+import Manacoaching from './assets/Sliding Logos/logo.png';
+import ESTR from './assets/Sliding Logos/images.png';
 import './App.css'
 
 function App() {
