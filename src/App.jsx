@@ -339,12 +339,14 @@ function App() {
               <a href="#contact" className="text-gray-300 hover:text-[#FF7130] transition-colors">Contact</a>
             </nav>
 
-            {/* Hire Me Button */}
-            <div className="hidden md:block">
-              <Button className="bg-[#6366f1] hover:bg-[#5855eb] text-white px-6 py-2 rounded-full">
-                Hire Me!
+                 {/* Get Started Button */}
+            <a href="#contact">
+              <Button 
+                className="bg-[#6366f1] hover:bg-[#5855eb] text-white px-6 py-2 rounded-lg transition-colors"
+              >
+                  Get Started
               </Button>
-            </div>
+            </a>
 
             {/* Mobile Menu Button */}
             <button
@@ -364,9 +366,11 @@ function App() {
                 <a href="#services" className="text-gray-300 hover:text-[#FF7130] transition-colors">Services</a>
                 <a href="#portfolio" className="text-gray-300 hover:text-[#FF7130] transition-colors">Portfolio</a>
                 <a href="#contact" className="text-gray-300 hover:text-[#FF7130] transition-colors">Contact</a>
-                <Button className="bg-[#6366f1] hover:bg-[#5855eb] text-white px-6 py-2 rounded-full w-fit">
-                  Hire Me!
-                </Button>
+                <a href="#contact">
+                  <Button className="bg-[#6366f1] hover:bg-[#5855eb] text-white px-6 py-2 rounded-full w-fit">
+                    Get Started
+                  </Button>
+                </a>
               </nav>
             </div>
           )}
@@ -391,9 +395,11 @@ function App() {
               <p className="text-lg text-gray-300 leading-relaxed">
                 We architect cutting-edge digital solutions that transform businesses and accelerate growth through innovative technology.
               </p>
-              <Button className="bg-[#6366f1] hover:bg-[#5855eb] text-white px-8 py-3 rounded-lg text-lg">
-                Get started
-              </Button>
+              <a href="#contact">
+                <Button className="bg-[#6366f1] hover:bg-[#5855eb] text-white px-8 py-3 rounded-lg text-lg">
+                  Get started
+                </Button>
+              </a>
             </div>
 
             {/* Hero Visual - Modern Dashboard/App Interface */}
@@ -603,8 +609,8 @@ function App() {
                     key={`${index}-${currentSlide}`}
                     className={`transition-all duration-1000 ease-in-out rounded-lg overflow-hidden group cursor-pointer hover:shadow-2xl ${
                       isCenter 
-                        ? 'w-[400px] h-[800px] transform scale-105 z-10' 
-                        : 'w-[405px] h-[400px] opacity-75'
+                        ? 'w-[400px] h-[800px] md:h-[800px] sm:h-[500px] transform scale-105 z-10' 
+                        : 'w-[405px] h-[400px] md:h-[400px] sm:h-[250px] opacity-75'
                     }`}
                   >
                     <img 
@@ -653,7 +659,7 @@ function App() {
                   <img 
                     src={logo.logo} 
                     alt={logo.name}
-                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                    className="max-w-full max-h-full object-contain transition-all duration-300"
                   />
                 </div>
               ))}
@@ -663,7 +669,7 @@ function App() {
                   <img 
                     src={logo.logo} 
                     alt={logo.name}
-                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                    className="max-w-full max-h-full object-contain transition-all duration-300"
                   />
                 </div>
               ))}
