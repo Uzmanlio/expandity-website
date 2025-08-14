@@ -609,14 +609,14 @@ function App() {
                     key={`${index}-${currentSlide}`}
                     className={`transition-all duration-1000 ease-in-out rounded-lg overflow-hidden group cursor-pointer hover:shadow-2xl ${
                       isCenter 
-                        ? 'w-[400px] h-[800px] md:h-[800px] sm:h-[500px] transform scale-105 z-10' 
-                        : 'w-[405px] h-[400px] md:h-[400px] sm:h-[250px] opacity-75'
+                        ? 'w-[400px] h-[800px] md:h-[800px] sm:w-[400px] sm:h-[250px] transform scale-105 z-10' 
+                        : 'w-[405px] h-[400px] md:h-[400px] sm:w-[200px] sm:h-[125px] opacity-75'
                     }`}
                   >
                     <img 
                       src={item.image} 
                       alt={item.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                 )
